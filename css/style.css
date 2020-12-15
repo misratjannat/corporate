@@ -1,0 +1,81 @@
+:root {
+  --purple_lg: 199, 87, 162;
+  --purple: #C757A2;
+  --white: #ffffff;
+
+  --bg_title: 45px;
+}
+*{padding: 0;margin: 0;box-sizing: border-box;}
+a,a:hover{text-decoration: none;}
+p{margin: 0;}
+h2{font-size: var(--bg_title); font-weight: bold;text-transform: uppercase;}
+
+/*======= Welcome-1 section css start ==========*/
+.welcome-title1 h2 span{color: var(--purple);}
+.w1-box1,.w1-box2{background: linear-gradient(rgba(var(--purple_lg), .8),rgba(var(--purple_lg), .8)), url('../img/welcome1.jpg') no-repeat;height: 320px;position: relative;background-position: center center;width: 100%;}
+.w1-box1-text,.w1-box2-text{position: absolute; bottom: -1px; left: -1px; background: var(--white);}
+.w1-icon{width: 100%; height: 100%; padding: 20px; background: var(--purple);}
+.w1-box2{background: linear-gradient(rgba(var(--purple_lg), .8),rgba(var(--purple_lg), .8)), url('../img/welcome2.jpg') no-repeat;}
+.w1-box2-text{right: -1px!important;}
+
+
+/*======= Welcome-2 section css start ==========*/
+.welcome-section2{background: linear-gradient(rgba(var(--purple_lg), .8),rgba(var(--purple_lg), .8)), url('../img/welcome1.jpg') no-repeat;height: auto;background-position: center center; width: 100%; background-size: cover;}
+.w2-intro{margin: 100px 0; padding: 50px;}
+.w2-intro span{color: var(--purple);}
+.w2-contact-btn{text-decoration: none; display: inline-block; color: var(--white); background-color: var(--purple); padding: 10px 30px; margin-top:20px; border: 1px solid var(--purple);transition: all .3s;}
+.w2-contact-btn:hover{color: var(--purple); background: transparent;}
+
+
+/*======= About-1 Section css Start ============*/
+.about1-col{z-index: 1;}
+.about1-info1{width: 105%;border: 5px solid var(--purple);padding: 7% 30% 7% 10%;margin-left: 15%;}
+.about1-info1 h2 span{color: var(--purple);}
+.about1-img1 img{filter: grayscale(100%);height: 100%;}
+.abotu1-btn{color: var(--purple);display: inline-block;margin-top: 10px;font-weight: bold;font-size: 20px;text-transform: uppercase;transition: all .3s;}
+.abotu1-btn:hover{color: darkblue;}
+.about1-btn i{line-height: 30px;margin-left: 20px;}
+
+/*about1 section media queries*/
+@media screen and (max-width: 1116px){.about1-info1{padding: 7% 20% 7% 10%;}}
+@media screen and (max-width: 998px){h2{font-size: 35px;}.about1-info1{width: 100%; padding: 10px;margin-left: 0;}}
+@media screen and (max-width: 767px){.about1-info1{margin: 20px 0 ;}}
+
+
+/*======= About-2 Section css Start ============*/
+.about2-section h2 span{color: var(--purple);}
+.about2-img1 img{filter: grayscale(100%);}
+.about2-col{border: 5px solid var(--purple);padding: 15px;}
+.about2-title1{width: 230%; background: #fff;}
+.about2-box2{background-color: var(--purple);background-image:linear-gradient(to bottom left, rgb(114,85,168), rgb(236,74,157));padding: 10%; color: var(--white);}
+.about2-icon1{border: 5px solid var(--purple);padding: 10px;}
+.about2-box2 p{text-align: justify;}
+.about2-box3 p{padding: 10px 20px;}
+@media screen and (max-width: 767px){.about2-section h2{text-align: center;}.about2-col{border: none;}.about2-icon1{width: 40%;margin: 10px auto;}.about2-title1{width:100%;}.about2-box3 p{padding: 10px 0;}}
+
+
+/*======= About-3 Section css Start ============*/
+/*.about3-section{position: relative;overflow: hidden;}
+.about3-title1{padding-right: 10%;}
+.about3-title1 h2 span{color: var(--purple);}
+.about3-img1{
+	background: #efeeee;
+    width: 660px;
+    height: 660px;
+    border-radius: 50%;
+    position: absolute;
+    right: -200px;
+    bottom: -215px;
+}
+.about3-img1 img{
+	height: 40%;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about3-icons img{
+	width: 100px;
+	height: 100px;
+}*/
